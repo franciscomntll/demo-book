@@ -38,7 +38,9 @@ var expressCheckoutConfig = {
   functionCallBackReady: function (data) {
     console.log("Express Checkout ready: ", data);
     const container = document.querySelector("#express-checkout");
+    const separator = document.querySelector("#separator-checkout");
     container.classList.remove("hidden")
+    separator.classList.remove("hidden")
   },
   functionCallBackSuccess: function (data) {
     console.log("Express Checkout Success: ", data);
