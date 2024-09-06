@@ -1,4 +1,4 @@
-#container-payment {
+#container-modal {
     background-color: white;
     border: 2px solid #ed6524;
     width: 100%;
@@ -7,7 +7,7 @@
     padding: 1rem;
     margin-top: 1rem;
 }
-#container-payment::before {
+#container-modal::before {
     content: '';
     position: absolute;
     top: 0;
@@ -33,4 +33,15 @@
     background-color: #ed6524;
     font-weight: 700;
     text-align: center;
+}
+
+#purchase-success {
+    color: #ed6524;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

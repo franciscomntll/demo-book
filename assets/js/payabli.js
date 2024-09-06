@@ -29,7 +29,7 @@ var expressCheckoutConfig = {
     },
   },
   customerData: {
-    customerNumber: "123456",
+    customerNumber: "12412424",
     firstName: "Book demo",
     lastName: "Customer",
     billingEmail: "bookdemo@customer.com",
@@ -44,6 +44,10 @@ var expressCheckoutConfig = {
   },
   functionCallBackSuccess: function (data) {
     console.log("Express Checkout Success: ", data);
+    const container = document.querySelector("#container-payment");
+    const purchaseSuccess = document.querySelector("#purchase-success");
+    container.classList.add("hidden")
+    purchaseSuccess.classList.remove("hidden")
   },
   functionCallBackError: function (data) {
     console.log("Express Checkout Error: ", data);
