@@ -1,6 +1,6 @@
 var token =
   "o.8eJsOHAYhsbhPXHqNOkg8dlZ3o9d4IgHgRoqRnmErqXtnky/wbH/HdtY/foN88hp8Rse3FQfixsBfyeTqq43sSw/PCfZ0xeG9/YlOZS/Ow19LiO/NoKJ8VMZq9XIZ+PwEfMmaHnQ2BwXNa3mCrJ0kuM4Skq/whhTuQQOeZ0kpwdskfDYt7gejC5qA9T6crdKQ3Lshz8cRKgRMZ7uCr5rcFIMVTPKti8GfPi6Pc62ywpvh96IjTaO+DLIY4BF6R+gkWaWCFRiPChjEZltVPg7ZezaeyIG0njt9yPLlPSoJebOl9Jq/LE3v3rUr1nXvobso9GeMdDgUJxLzJkYzJ6nGT15KhaWs5LwQpvj5JPgOp4pqDGxIJDdKFsg53jogOtzdU7aZF0/BMaXslP6dRY+aR/r4g6NSI8T0CDDACeMM74bgcQ8FyRwsJdYB221l/H1pq4KMAbuNcZ+SKVbalQ11Q==.mnyeHRmQJMg1micjgClYWpw8GpY1cLss2YiYHpaWVTE=";
-var entryPoint = "8dfdf2aa47";
+var entryPoint = "7f1a381696";
 // Express Checkout config object
 var expressCheckoutConfig = {
   token: token,
